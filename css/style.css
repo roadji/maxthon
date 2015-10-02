@@ -12,7 +12,8 @@
 
 	body
 	{
-		background: #2b140a;
+		background-color: #F0F0F0 ;
+        opacity: 1.0;
 	}
 
 	body,input,textarea,select
@@ -751,7 +752,8 @@
 	#wrapper
 	{
 		padding-bottom: 4em;
-		background: #552713;
+		background: #F0F0F0;
+
 	}
 
 /*********************************************************************************/
