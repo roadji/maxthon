@@ -9,7 +9,8 @@
 /*********************************************************************************/
 
 	body
-	{
+	{ background-color: #F0F0F0;
+        opacity: 1.0;
 	}
 
 	body,input,textarea,select
@@ -56,7 +57,7 @@
 			text-transform: uppercase;
 			font-size: 3em;
 			font-weight: 900;
-			color: #FFF;
+			color: #0000FF;
 		}
 
 		#logo span
