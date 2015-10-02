@@ -67,7 +67,7 @@
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			font-size: 1.2em;
-			color: #FD5113;
+			color: #0000FF;
 		}			
 			
 
@@ -77,7 +77,7 @@
 
 	#nav
 	{
-		background: #281208;
+		background: #3e86d8;
 	}
 	
 		#nav ul
@@ -105,15 +105,16 @@
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 200;
-				font-size: 1em;
+				font-size: 17px;
 				outline: 0;
-				color: #FD5113;
+				color: #E0E0E0;
+                opacity: 0.8;
 			}
 
 
 			#nav > ul > li > a:hover
 			{
-				color: rgba(255,255,255,1);
+				color: rgba(255,255,255,2);
 			}
 
 			#nav li.active a
