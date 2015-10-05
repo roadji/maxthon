@@ -15,8 +15,18 @@
         <link rel="shortcut icon" href="images/icon.ico" />
 	</head>
 	<body class="homepage">
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+        fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+        
 		<div id="page-wrapper">
-
+            
 			<!-- Header Wrapper -->
 				<div id="header-wrapper">
 					<div class="container">
@@ -27,8 +37,10 @@
 									<header id="header">
 
 										<!-- Logo -->
-											<h1><a href="index.html" id="logo">遨遊國際</a></h1>
-											<p>Maxthon Universal</p>
+											<h1><a href="index.html" id="logo">遨遊國際交流中心</a></h1>
+											<p>Maxthon Universal Exchange Centre</p>
+                                            <p>牌照號碼：353855</p>
+                                        
 
 										<!-- Nav -->
 											<nav id="nav">
@@ -72,11 +84,11 @@
 						<div class="row">
 							<div class="12u">
 
-								<!-- Banner -->
+								<!-- Banner 
 									<div id="banner">
 										<p><span>Lorem ipsum dolor sit amet</span> magna consectetur nulla adipiscing sed donec id dolor urna. Donec bibendum eros ut eros tincidunt veroeros et amet pharetra tortor vulputate.</p>
 									</div>
-
+                                -->
 							</div>
 						</div>
 					</div>
@@ -179,13 +191,11 @@
 								<div class="3u 12u(mobile)" id="sidebar">
 
 									<!-- Orange Box -->
-										<section class="box default special1">
+										<section>
 
-											<div class="content">
-												<h2>Magna dolore sed etiam consequat</h2>
-												<p>Lorem ipsum dolor sit amet, blandit sectetur adipiscing elit et donec amet urna. Donec bibendum eros.</p>
-												<p><a href="#" class="button">Read More</a></p>
-											</div>
+											
+												<div class="fb-page" data-href="https://www.facebook.com/facebook" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
+											
 
 										</section>
 
@@ -272,7 +282,7 @@
 								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
 								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 							</ul>
-							<span class="copyright">&copy; Untitled. All Rights Reserved.</span>
+							<span class="copyright">&copy; Maxthon Universal Exchange Centre. All Rights Reserved.</span>
 						</div>
 
 				</div>
