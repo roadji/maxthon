@@ -13,8 +13,20 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <link rel="shortcut icon" href="images/icon.ico" />
+        <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+        <script language="JavaScript" src="assets/js/gen_validatorv31.js" type="text/javascript"></script>
+       
 	</head>
 	<body class="homepage">
+        <?php 
+print "<h1>Congratulations, your server can process PHP!</h1>"; 
+print "<h3>Here you can view the PHP configuration on your server</h3>";
+phpinfo( ); 
+exit(); 
+?> 
+<h1>Sorry, PHP is not enabled on this server.</h1><br /><br /> 
+<h3>Check your host provider documentation or contact 
+your host provider to ask them how to enable PHP.</h3> 
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -192,71 +204,39 @@
 
 									<!-- Orange Box -->
 										<section>
-
-											
-												<div class="fb-page" data-href="https://www.facebook.com/hkstudytour" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hkstudytour"><a href="https://www.facebook.com/hkstudytour">Maxthon Universal 遨遊國際</a></blockquote></div></div>
-
+												<div class="fb-page" data-href="https://www.facebook.com/hkstudytour" data-small-header="false" data-adapt-                                                        container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-                                                    xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hkstudytour"><a                                                                                    href="https://www.facebook.com/hkstudytour">Maxthon Universal 遨遊國際</a></blockquote></div></div>
 										</section>
 
 									<!-- Blue Box -->
 										<section class="box default special2">
 
-											<div class="content">
-												<h2>Phasellus convallis scelerisque</h2>
-												<p>Lorem ipsum dolor sit amet, blandit sectetur adipiscing elit et donec amet urna. Donec bibendum eros.</p>
-												<p><a href="#" class="button">Read More</a></p>
+                                            <div class="content">
+												<h2>遊學團查詢</h2>
+												<form method="post" name="contactform" action="contact-form-handler.php">
+                                                    Your Name:
+                                                    <br>
+                                                    <input type="text" name="name" >
+                                                    <br>
+                                                    Email Address:
+                                                    <br>
+                                                    <input type="text" name="email">
+                                                    <br>
+                                                    Message:
+                                                    <br>
+                                                    <textarea placeholder="Remarks" cols="25" rows="5" name="message"></textarea>
+                                                     <br>
+                                                    <input type="submit" class="button" value="Submit">
+                                                    </form>   
+												
 											</div>
-
+                                        
 										</section>
-
+                                            
 									<!-- Category Section -->
 										<section>
 											<div class="row">
 
 												<div class="6u 12u(mobile)">
-
-													<!-- Topic Section -->
-														<section class="categories">
-															<h2>Topics</h2>
-															<ul class="style2">
-																<li><a href="#">Architecture (185)</a></li>
-																<li><a href="#">Art (40)</a></li>
-																<li><a href="#">Branding (13)</a></li>
-																<li><a href="#">Design (211)</a></li>
-																<li><a href="#">Film (3)</a></li>
-																<li><a href="#">Miscellaneous (21)</a></li>
-																<li><a href="#">Motion Graphics (1)</a></li>
-																<li><a href="#">Music (50)</a></li>
-																<li><a href="#">Packaging (15)</a></li>
-																<li><a href="#">Photography (123)</a></li>
-																<li><a href="#">Technology (18)</a></li>
-																<li><a href="#">Travel (13)</a></li>
-																<li><a href="#">Typography (9)</a></li>
-																<li><a href="#">Video (36)</a></li>
-															</ul>
-														</section>
-
-												</div>
-
-												<div class="6u 12u(mobile)">
-
-													<!-- Archives Section -->
-														<section class="categories">
-															<h2>Archives</h2>
-															<ul class="style2">
-																<li><a href="#">November 2014</a></li>
-																<li><a href="#">December 2014</a></li>
-																<li><a href="#">January 2015</a></li>
-																<li><a href="#">February 2015</a></li>
-																<li><a href="#">March 2015</a></li>
-																<li><a href="#">April 2015</a></li>
-																<li><a href="#">May 2015</a></li>
-																<li><a href="#">June 2015</a></li>
-																<li><a href="#">July 2015</a></li>
-																<li><a href="#">August 2015</a></li>
-																<li><a href="#">September 2015</a></li>
-															</ul>
-														</section>
 
 												</div>
 
@@ -272,23 +252,31 @@
 			<!-- Footer Wrapper -->
 				<div id="footer-wrapper">
 
-					<!-- Footer -->
-						<div id="footer" class="container">
-							<ul class="icons">
+					<!-- Footer    -->
+						
+                            <div id="footer" class="container">
+							<!--<ul class="icons">
 								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
 								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 							</ul>
+                              -->
 							<span class="copyright">&copy; Maxthon Universal Exchange Centre. All Rights Reserved.</span>
 						</div>
-
+                 
 				</div>
-
+            
 		</div>
 
 		<!-- Scripts -->
+            <script language="JavaScript">
+                var frmvalidator  = new Validator("contactform");
+                frmvalidator.addValidation("name","req","Please provide your name"); 
+                frmvalidator.addValidation("email","req","Please provide your email"); 
+                frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+            </script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.slidertron.min.js"></script>
@@ -297,6 +285,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+        <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->!
+        
 
 	</body>
 </html>
