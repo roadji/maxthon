@@ -41,7 +41,9 @@
 /*********************************************************************************/
 
 	#logo
-	{
+	{       background-image: url("images/banner.png");
+            background-repeat: no-repeat;
+            background-size: cover;
 	}
 	
 		#logo h1
