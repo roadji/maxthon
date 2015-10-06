@@ -17,6 +17,37 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+    
+    iframe.map {
+       background-size: cover;
+    }
+
+    table{
+        table-layout:fixed;
+        border: 3px solid white;
+        height:180px;
+        width:180px;
+    }
+    
+    table.center {
+        margin-left:auto; 
+        margin-right:auto;
+    }
+
+     tr, th, td, tbody {
+         border: 3px solid white;
+         overflow: hidden;
+         height: 200px;
+         width: 200px;
+         align-content: center;
+     }
+    
+    table img{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -134,7 +165,9 @@
 		.container {
 			width: 1000px;
 		}
-
+           
+       
+        
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1233,6 +1266,7 @@
 
 	.box {
 		background: #fff;
+        opacity: 1;
 	}
 
 		.box.default h2 {
