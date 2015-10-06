@@ -29,7 +29,7 @@
         margin-right:auto;
     }
 
-    tr, th, td, tbody {
+    table.center tr, td {
          border: 3px solid white;
          height: 200px;
          width: 200px;
@@ -1907,15 +1907,13 @@
         
         /* table */
          
-        tr, th, td, tbody {
+        table.center tr, td{
          border: 3px solid white;
-         height: 70px;
-         width: 70px;
+         height: 80px;
+         width: 80px;
          
      }
-        table.center img {
-           
-        }
+        
         
         
 	}
