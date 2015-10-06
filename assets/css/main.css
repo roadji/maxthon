@@ -21,28 +21,22 @@
     iframe.map {
        background-size: cover;
     }
-
-    table{
+ 
+    table.center {
         table-layout:fixed;
         border: 3px solid white;
-        height:180px;
-        width:180px;
-    }
-    
-    table.center {
         margin-left:auto; 
         margin-right:auto;
     }
 
-     tr, th, td, tbody {
+    tr, th, td, tbody {
          border: 3px solid white;
-         overflow: hidden;
          height: 200px;
          width: 200px;
-         align-content: center;
+         
      }
     
-    table img{
+    table.center img{
         height: 100%;
         width: 100%;
         display: block;
@@ -1910,5 +1904,18 @@
 			#banner span {
 				color: #FFF;
 			}
-
+        
+        /* table */
+         
+        tr, th, td, tbody {
+         border: 3px solid white;
+         height: 70px;
+         width: 70px;
+         
+     }
+        table.center img {
+           
+        }
+        
+        
 	}
