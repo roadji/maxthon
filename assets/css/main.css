@@ -1100,7 +1100,7 @@
 /* Basic */
 
 	body {
-		background: #FFFFFF;
+		background: white;
 		/*background-image: url("images/bg01.jpg");*/
 		font-family: 'Open Sans', sans-serif;
 		font-size: 10pt;
@@ -1483,26 +1483,37 @@
 				position: absolute;
 				top: 5.5em;
 				right: -0.75em;
+                
 			}
 
 				#nav ul {
 					margin: 0;
 					padding: 0;
+                    
+                    
 				}
 
 					#nav ul li {
+                        height: 84px;
 						float: left;
 						padding: 1em;
+                        
+                        
 					}
 
 						#nav ul li.active {
 							background: #22B6ED;
+                            
 						}
 
 						#nav ul li a {
 							text-decoration: none;
-							font-size: 1.1em;
+							font-size: 1.3em;
+                            font-weight: bold;
 							color: #015EAE;
+                            line-height: 170px;
+                            
+                            
 						}
 
 				#nav > ul > li > ul {
