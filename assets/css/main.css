@@ -1100,8 +1100,8 @@
 /* Basic */
 
 	body {
-		background: #000000;
-		background-image: url("images/bg01.jpg");
+		background: #FFFFFF;
+		/*background-image: url("images/bg01.jpg");*/
 		font-family: 'Open Sans', sans-serif;
 		font-size: 10pt;
 		color: #585858;
@@ -1142,7 +1142,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #00A8FF;
+		color: #015EAE;
 	}
 
 		a:hover {
@@ -1326,14 +1326,15 @@
 				letter-spacing: -.05em;
 				font-size: 2.2em;
 				font-weight: 200;
-				color: #00A8FF;
+				color: #015EAE;
 			}
 
 			.box.section .content {
 				padding: 2em 1.5em 1.5em 1.5em;
 			}
 
-		.box.post {
+
+
 			padding: 3em 2em 4em 2em;
 		}
 
@@ -1388,7 +1389,7 @@
 		letter-spacing: -0.05em;
 		font-size: 2.2em;
 		font-weight: 200;
-		color: #00A8FF;
+		color: #015EAE;
 		line-height: 1.2em;
 	}
 
@@ -1415,7 +1416,7 @@
 	}
 
 		#footer .copyright {
-			color: #777;
+			color: #015EAE;
 		}
 
 /* Desktop */
@@ -1451,6 +1452,7 @@
 				min-height: 5em;
 				position: relative;
 				padding-top: 5em;
+                background-image: url(images/full_logo.jpg);
 			}
 
 				#header h1 {
@@ -1472,7 +1474,7 @@
 					font-size: 1.3em;
 					font-weight: 300;
 					font-style: italic;
-					color: #777;
+					color: #015EAE;
 				}
 
 		/* Nav */
@@ -1500,7 +1502,7 @@
 						#nav ul li a {
 							text-decoration: none;
 							font-size: 1.1em;
-							color: #FFF;
+							color: #015EAE;
 						}
 
 				#nav > ul > li > ul {
@@ -1552,7 +1554,7 @@
 					text-align: center;
 					font-size: 2.5em;
 					font-weight: 200;
-					color: #777;
+					color: #015EAE;
 				}
 
 				#banner span {
