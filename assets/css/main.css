@@ -22,6 +22,10 @@
        background-size: cover;
     }
  
+    iframe.form {
+        background-size:cover;
+    }
+
     table.center {
         table-layout:fixed;
         border: 3px solid white;
@@ -1096,7 +1100,7 @@
 /* Basic */
 
 	body {
-		background: #1a1a1a;
+		background: #000000;
 		background-image: url("images/bg01.jpg");
 		font-family: 'Open Sans', sans-serif;
 		font-size: 10pt;
