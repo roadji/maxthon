@@ -189,27 +189,34 @@
 										</section>
 
 									<!-- Blue Box-->
-										<!--<section class="box default special2">
+										<section class="box default special2">
 
                                             <div class="content">
-												<h2>遊學團查詢</h2>
-												<form method="post" name="contactform" action="contact-form-handler.php">
-                                                    Your Name:
+												<h2>索取遊學團小冊子</h2>
+												<form method="POST" id="contactform">
+                                                    收件人名稱:
                                                     <br>
                                                     <input type="text" name="name" >
                                                     <br>
-                                                    Email Address:
+                                                    收件人電郵:
                                                     <br>
-                                                    <input type="text" name="email">
+                                                    <input type="email" name="_replyto">
                                                     <br>
-                                                    Message:
+                                                    <input type="hidden" name="_subject" value="索取遊學團小冊子" />
+                                                    收件人地址:
                                                     <br>
-                                                    <textarea placeholder="Remarks" cols="25" rows="5" name="message"></textarea>
-                                                     <br>
-                                                    <input type="submit" class="button" value="Submit">
+                                                    <textarea cols="25" rows="5" name="message"></textarea>
+                                                    <br>
+                                                    <input type="submit" class="button" value="SEND">
+                                                    <input type="text" name="_gotcha" style="display:none" />
                                                     </form>   
+
+                                                    <script>
+                                                    var contactform =  document.getElementById('contactform');
+                                                    contactform.setAttribute('action', '//formspree.io/' + 'rebirthroadman' + '@' + 'gmail' + '.' + 'com');
+                                                    </script>
 												
-											</div>-->
+											</div>
                                         
 										</section> 
                                         
